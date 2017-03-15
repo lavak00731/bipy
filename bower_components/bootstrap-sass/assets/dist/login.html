@@ -14,34 +14,38 @@
 
 </head>
 
-<body>
+<body class="login-section">
     <div class="container">
-        <div class="row login">
+        <div class="row login-data">
             <div class="login-logo-container">
                 <figure class="login-logo-wrapper">
-                    <img src="img/logoblanco.svg" alt="Bipy Logo">
+                    <img src="img/logoblanco.svg" class="img-responsive" alt="Bipy Logo">
                 </figure>
             </div>
-            <div class="login-form offset-margin col-xs-10">
-                <form action="">
-                    <div class="form-group">
+            <div class="login-form">
+                <form class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3" action="">
+                    <div class="form-group login-input-wrapper icon-envelope-o row">
                         <label class="sr-only" for="login-email">Email</label>
-                        <input type="email" id="login-email" placeholder="yourname@example.com">
+                        <input type="email" id="login-email" placeholder="yourname@example.com" class="col-xs-12">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group login-input-wrapper icon-lock row">
                         <label class="sr-only" for="login-pass">Clave</label>
-                        <input type="password" id="login-pass" placeholder="Enter your password">
-                        <a href="#" title="A Recuperar Contraseña">¿Olvidaste tu contrase&ntilde;a?</a>
+                        <input type="password" id="login-pass" placeholder="Enter your password" class="col-xs-12">
                     </div>
-                    <div class="button-container">
-                        <button class="submit">Ingresar</button>
+                    <p class="reset-pass"><a href="#" title="A Recuperar Contraseña">¿Olvidaste tu contrase&ntilde;a?</a></p>
+                    <div class="button-container row">
+                        <button class="submit col-xs-12 col-md-8 col-md-offset-2">Ingresar</button>
                     </div>
                 </form>
             </div>
         </div>
         <div class="row create-account">
-            <h1>¿A&uacute;n no tienes cuenta?</h1>
-            <button class="submit">Crear una cuenta nueva</button>
+            <div class="create-account-wrapper col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+                <p class="create-account-question">¿A&uacute;n no tienes cuenta?</p>
+                <div class="button-container row">
+                    <button class="submit col-xs-12 col-md-8 col-md-offset-2">Crear una cuenta nueva</button>
+                </div>
+            </div>
         </div>
     </div>
 

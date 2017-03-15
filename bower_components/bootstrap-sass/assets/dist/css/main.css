@@ -8788,11 +8788,223 @@ button.close {
     display: none !important;
   }
 }
-/* line 6, ../../stylesheets/bipy/_styleguide.scss */
+@font-face {
+  font-family: "social";
+  src: url("fonts/social.eot");
+  src: url("fonts/social.eot?#iefix") format("embedded-opentype"), url("fonts/social.woff") format("woff"), url("fonts/social.ttf") format("truetype"), url("fonts/social.svg#social") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 13, ../../stylesheets/bipy/_styleguide.scss */
+[data-icon]:before {
+  font-family: "social" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 25, ../../stylesheets/bipy/_styleguide.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "social" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 37, ../../stylesheets/bipy/_styleguide.scss */
+.icon-envelope-o:before {
+  content: "\61";
+}
+
+/* line 40, ../../stylesheets/bipy/_styleguide.scss */
+.icon-lock:before {
+  content: "\62";
+}
+
+/* line 43, ../../stylesheets/bipy/_styleguide.scss */
+.icon-checkmark-circled:before {
+  content: "\63";
+}
+
+/* line 46, ../../stylesheets/bipy/_styleguide.scss */
+.icon-times:before {
+  content: "\64";
+}
+
+/* line 49, ../../stylesheets/bipy/_styleguide.scss */
 body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   color: #FFF;
+}
+
+/* line 54, ../../stylesheets/bipy/_styleguide.scss */
+a {
+  color: #036e9d;
+}
+/* line 56, ../../stylesheets/bipy/_styleguide.scss */
+a:hover, a:active {
+  color: #036e9d;
+  text-decoration: underline;
+}
+/* line 61, ../../stylesheets/bipy/_styleguide.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 65, ../../stylesheets/bipy/_styleguide.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background: transparent;
+  border-radius: 25px;
+  border: 1px solid #FFF;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2.4em;
+}
+/* line 74, ../../stylesheets/bipy/_styleguide.scss */
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder {
+  color: #FFF;
+  opacity: 1;
+}
+/* line 78, ../../stylesheets/bipy/_styleguide.scss */
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder {
+  color: #FFF;
+  opacity: 1;
+}
+/* line 82, ../../stylesheets/bipy/_styleguide.scss */
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder {
+  color: #FFF;
+  opacity: 1;
+}
+/* line 86, ../../stylesheets/bipy/_styleguide.scss */
+input[type="text"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder {
+  color: #FFF;
+  opacity: 1;
+}
+
+/* line 92, ../../stylesheets/bipy/_styleguide.scss */
+.button-container .submit {
+  background: #FFF;
+  color: #036e9d;
+  border-radius: 25px;
+  border: 1px solid #036e9d;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2.4em;
+  box-shadow: 0px 4px 1px #1eaacc;
+  -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+  transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+/* line 103, ../../stylesheets/bipy/_styleguide.scss */
+.button-container .submit:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+}
+/* line 107, ../../stylesheets/bipy/_styleguide.scss */
+.button-container .submit:active {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-decoration: underline;
+  box-shadow: none;
+}
+/* line 112, ../../stylesheets/bipy/_styleguide.scss */
+.button-container .submit:focus {
+  outline: thin dotted;
+}
+
+/* line 1, ../../stylesheets/bipy/_login.scss */
+.login-section {
+  background: url("../img/loginbackground.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+
+/* line 5, ../../stylesheets/bipy/_login.scss */
+.login-form {
+  overflow: hidden;
+  padding-bottom: 8.71985158%;
+}
+
+/* line 9, ../../stylesheets/bipy/_login.scss */
+.login-logo-wrapper {
+  width: 27.272727272%;
+  margin: 25.78849722% auto 12.33766234%;
+}
+
+/* line 13, ../../stylesheets/bipy/_login.scss */
+.login-input-wrapper {
+  position: relative;
+  margin-bottom: 5.10204082%;
+}
+/* line 16, ../../stylesheets/bipy/_login.scss */
+.login-input-wrapper:before {
+  position: absolute;
+  top: 17px;
+  left: 7%;
+}
+
+/* line 22, ../../stylesheets/bipy/_login.scss */
+.reset-pass {
+  margin-top: -1%;
+  text-align: center;
+  margin-bottom: 9.4619666%;
+}
+
+/* line 27, ../../stylesheets/bipy/_login.scss */
+.create-account {
+  padding: 8.71985158% 0;
+}
+
+/* line 30, ../../stylesheets/bipy/_login.scss */
+.create-account-question {
+  width: 80%;
+  text-align: center;
+  position: relative;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0 auto 9.4619666%;
+}
+/* line 37, ../../stylesheets/bipy/_login.scss */
+.create-account-question:before {
+  content: "";
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-bottom: 1px solid #FFF;
+  left: -19%;
+}
+/* line 47, ../../stylesheets/bipy/_login.scss */
+.create-account-question:after {
+  content: "";
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-bottom: 1px solid #FFF;
+  right: -19%;
 }
 
 /* line 1, ../../stylesheets/bipy/_splash.scss */

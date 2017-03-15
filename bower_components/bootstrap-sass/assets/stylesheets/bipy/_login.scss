@@ -1,1 +1,57 @@
-
+.login-section {
+    background: url('../img/loginbackground.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.login-form {
+    overflow: hidden;
+    padding-bottom: 8.71985158%;
+}
+.login-logo-wrapper {
+    width: 27.272727272%;
+    margin: 25.78849722% auto 12.33766234%;
+}
+.login-input-wrapper {
+    position: relative;
+    margin-bottom: 5.10204082%;
+    &:before {
+        position: absolute;
+        top: 17px;
+        left: 7%;
+    }
+}
+.reset-pass {
+    margin-top: -1%;
+    text-align: center;
+    margin-bottom: 9.4619666%;
+}
+.create-account {
+    padding: 8.71985158% 0;
+}
+.create-account-question {
+    width: 80%;
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin: 0 auto 9.4619666%;
+    &:before {
+        content: "";
+        width: 20%;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        border-bottom: 1px solid #FFF;
+        left: -19%;
+    }
+    &:after {
+        content: "";
+        width: 20%;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        border-bottom: 1px solid #FFF;
+        right: -19%;
+    }
+}

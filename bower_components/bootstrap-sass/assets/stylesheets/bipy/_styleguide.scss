@@ -73,6 +73,7 @@ input[type="email"] {
     text-align: center;
     font-size: 1.2em;
     line-height: 2.4em;
+    outline: none;
     &::-webkit-input-placeholder {
         color: $white;
         opacity: 1;

@@ -24,13 +24,17 @@
             </div>
             <div class="login-form">
                 <form class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3" action="">
-                    <div class="form-group login-input-wrapper icon-envelope-o row">
+                    <div class="form-group input-wrapper icon-envelope-o row">
                         <label class="sr-only" for="login-email">Email</label>
                         <input type="email" id="login-email" placeholder="yourname@example.com" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
                     </div>
-                    <div class="form-group login-input-wrapper icon-lock row">
+                    <div class="form-group input-wrapper icon-lock row">
                         <label class="sr-only" for="login-pass">Clave</label>
                         <input type="password" id="login-pass" placeholder="Enter your password" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
                     </div>
                     <p class="reset-pass"><a href="#" title="A Recuperar Contraseña">¿Olvidaste tu contrase&ntilde;a?</a></p>
                     <div class="button-container row">
@@ -41,7 +45,9 @@
         </div>
         <div class="row create-account">
             <div class="create-account-wrapper col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
-                <p class="create-account-question">¿A&uacute;n no tienes cuenta?</p>
+                <p class="create-account-question">
+                    <span>¿A&uacute;n no tienes cuenta?</span>
+                </p>
                 <div class="button-container row">
                     <button class="submit col-xs-12 col-md-8 col-md-offset-2">Crear una cuenta nueva</button>
                 </div>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bipy - Registro</title>
+
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="registro-section">
+    <div class="container">
+        <div class="row login-data">
+            <div class="login-logo-container">
+                <figure class="login-logo-wrapper">
+                    <img src="img/logoblanco.svg" class="img-responsive" alt="Bipy Logo">
+                </figure>
+            </div>
+            <div class="registro-form">
+                <form class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3" action="">
+                    <div class="form-group input-wrapper row">
+                        <label class="sr-only" for="registro-name">Nombre</label>
+                        <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                        <input type="text" id="registro-name" placeholder="Nombre" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
+                    </div>
+                    <div class="form-group input-wrapper row">
+                        <label class="sr-only" for="registro-email">Email</label>
+                        <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                        <input type="email" id="registro-email" placeholder="Email" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
+                    </div>
+                    <div class="form-group input-wrapper row">
+                        <label class="sr-only" for="registro-email-confirm">Confirmar Email</label>
+                        <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                        <input type="email" id="registro-email-confirm" placeholder="Confirmar Email" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
+                    </div>
+                    <div class="form-group input-wrapper row">
+                        <label class="sr-only" for="registro-pass">Contrase&ntilde;a</label>
+                        <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                        <input type="password" id="registro-pass" placeholder="Contrase&ntilde;a" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
+                    </div>
+                    <div class="form-group input-wrapper row">
+                        <label class="sr-only" for="registro-pass-conf">Confirmar Contrase&ntilde;a</label>
+                        <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                        <input type="password" id="registro-pass-conf" placeholder="Confirmar Contrase&ntilde;a" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
+                    </div>
+                    <div class="row">
+                        <div class="form-group input-wrapper inline-input-wrapper col-xs-3">
+                            <label for="registro-pais">Pa&iacute;s</label>
+                            <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                            <input type="telephone" id="registro-pais" placeholder="+54" class="col-xs-12" maxlength="3">
+                            <i class="icon-checkmark-circled"></i>
+                            <i class="icon-times"></i>
+                        </div>
+                        <div class="form-group input-wrapper inline-input-wrapper col-xs-3">
+                            <label for="registro-area">&Aacute;rea</label>
+                            <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                            <input type="telephone" id="registro-area" placeholder="11" class="col-xs-12" maxlength="4">
+                            <i class="icon-checkmark-circled"></i>
+                            <i class="icon-times"></i>
+                        </div>
+                        <div class="form-group input-wrapper inline-input-wrapper col-xs-6">
+                            <label for="registro-numero">N&uacute;mero de Tel&eacute;fono</label>
+                            <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                            <input type="telephone" id="registro-numero" placeholder="11" class="col-xs-12" maxlength="12">
+                            <i class="icon-checkmark-circled"></i>
+                            <i class="icon-times"></i>
+                        </div>
+                    </div>
+                    <div class="button-container row">
+                        <button class="submit col-xs-12 col-md-8 col-md-offset-2">Crear Cuenta</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/vendor/jquery.slim.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

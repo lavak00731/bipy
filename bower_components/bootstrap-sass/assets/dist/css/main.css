@@ -8795,7 +8795,7 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
-/* line 15, ../../stylesheets/bipy/_styleguide.scss */
+/* line 17, ../../stylesheets/bipy/_styleguide.scss */
 [data-icon]:before {
   font-family: "social" !important;
   content: attr(data-icon);
@@ -8809,7 +8809,7 @@ button.close {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 27, ../../stylesheets/bipy/_styleguide.scss */
+/* line 29, ../../stylesheets/bipy/_styleguide.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "social" !important;
@@ -8823,48 +8823,48 @@ button.close {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 39, ../../stylesheets/bipy/_styleguide.scss */
+/* line 41, ../../stylesheets/bipy/_styleguide.scss */
 .icon-envelope-o:before {
   content: "\61";
 }
 
-/* line 42, ../../stylesheets/bipy/_styleguide.scss */
+/* line 44, ../../stylesheets/bipy/_styleguide.scss */
 .icon-lock:before {
   content: "\62";
 }
 
-/* line 45, ../../stylesheets/bipy/_styleguide.scss */
+/* line 47, ../../stylesheets/bipy/_styleguide.scss */
 .icon-checkmark-circled:before {
   content: "\63";
 }
 
-/* line 48, ../../stylesheets/bipy/_styleguide.scss */
+/* line 50, ../../stylesheets/bipy/_styleguide.scss */
 .icon-times:before {
   content: "\64";
 }
 
-/* line 51, ../../stylesheets/bipy/_styleguide.scss */
+/* line 53, ../../stylesheets/bipy/_styleguide.scss */
 body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   color: #FFF;
 }
 
-/* line 56, ../../stylesheets/bipy/_styleguide.scss */
+/* line 58, ../../stylesheets/bipy/_styleguide.scss */
 a {
   color: #036e9d;
 }
-/* line 58, ../../stylesheets/bipy/_styleguide.scss */
+/* line 60, ../../stylesheets/bipy/_styleguide.scss */
 a:hover, a:active {
   color: #036e9d;
   text-decoration: underline;
 }
-/* line 63, ../../stylesheets/bipy/_styleguide.scss */
+/* line 65, ../../stylesheets/bipy/_styleguide.scss */
 a:focus {
   outline: none;
 }
 
-/* line 67, ../../stylesheets/bipy/_styleguide.scss */
+/* line 69, ../../stylesheets/bipy/_styleguide.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -8877,7 +8877,7 @@ input[type="telephone"] {
   line-height: 2.4em;
   outline: none;
 }
-/* line 78, ../../stylesheets/bipy/_styleguide.scss */
+/* line 80, ../../stylesheets/bipy/_styleguide.scss */
 input[type="text"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder,
@@ -8885,7 +8885,7 @@ input[type="telephone"]::-webkit-input-placeholder {
   color: #FFF;
   opacity: 1;
 }
-/* line 82, ../../stylesheets/bipy/_styleguide.scss */
+/* line 84, ../../stylesheets/bipy/_styleguide.scss */
 input[type="text"]::-moz-placeholder,
 input[type="password"]::-moz-placeholder,
 input[type="email"]::-moz-placeholder,
@@ -8893,7 +8893,7 @@ input[type="telephone"]::-moz-placeholder {
   color: #FFF;
   opacity: 1;
 }
-/* line 86, ../../stylesheets/bipy/_styleguide.scss */
+/* line 88, ../../stylesheets/bipy/_styleguide.scss */
 input[type="text"]:-ms-input-placeholder,
 input[type="password"]:-ms-input-placeholder,
 input[type="email"]:-ms-input-placeholder,
@@ -8901,7 +8901,7 @@ input[type="telephone"]:-ms-input-placeholder {
   color: #FFF;
   opacity: 1;
 }
-/* line 90, ../../stylesheets/bipy/_styleguide.scss */
+/* line 92, ../../stylesheets/bipy/_styleguide.scss */
 input[type="text"]:-moz-placeholder,
 input[type="password"]:-moz-placeholder,
 input[type="email"]:-moz-placeholder,
@@ -8910,7 +8910,7 @@ input[type="telephone"]:-moz-placeholder {
   opacity: 1;
 }
 
-/* line 96, ../../stylesheets/bipy/_styleguide.scss */
+/* line 98, ../../stylesheets/bipy/_styleguide.scss */
 .button-container .submit {
   background: #FFF;
   color: #036e9d;
@@ -8923,56 +8923,56 @@ input[type="telephone"]:-moz-placeholder {
   -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
   transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
 }
-/* line 107, ../../stylesheets/bipy/_styleguide.scss */
+/* line 109, ../../stylesheets/bipy/_styleguide.scss */
 .button-container .submit:hover {
   background-color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
 }
-/* line 111, ../../stylesheets/bipy/_styleguide.scss */
+/* line 113, ../../stylesheets/bipy/_styleguide.scss */
 .button-container .submit:active {
   background-color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
   box-shadow: none;
 }
-/* line 116, ../../stylesheets/bipy/_styleguide.scss */
+/* line 118, ../../stylesheets/bipy/_styleguide.scss */
 .button-container .submit:focus {
   outline: none;
 }
 
-/* line 121, ../../stylesheets/bipy/_styleguide.scss */
+/* line 123, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper {
   position: relative;
   margin-bottom: 5.10204082%;
 }
-/* line 124, ../../stylesheets/bipy/_styleguide.scss */
+/* line 126, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper:before {
   position: absolute;
   top: 17px;
   left: 7%;
 }
-/* line 129, ../../stylesheets/bipy/_styleguide.scss */
+/* line 131, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper i {
   display: none;
   color: #23caf4;
 }
-/* line 133, ../../stylesheets/bipy/_styleguide.scss */
+/* line 135, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper input.valid {
   background-color: #d2f3fd;
   color: #036e9d;
 }
-/* line 137, ../../stylesheets/bipy/_styleguide.scss */
+/* line 139, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper input.valid ~ i.icon-checkmark-circled {
   display: block;
   position: absolute;
   right: 7%;
   top: 15px;
 }
-/* line 145, ../../stylesheets/bipy/_styleguide.scss */
+/* line 147, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper input.invalid {
   background-color: #d2f3fd;
   color: #036e9d;
 }
-/* line 149, ../../stylesheets/bipy/_styleguide.scss */
+/* line 151, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper input.invalid ~ i.icon-times {
   display: block;
   position: absolute;
@@ -8980,7 +8980,7 @@ input[type="telephone"]:-moz-placeholder {
   top: 15px;
 }
 
-/* line 158, ../../stylesheets/bipy/_styleguide.scss */
+/* line 160, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper {
   padding-left: 0;
   padding-right: 0;
@@ -8988,34 +8988,34 @@ input[type="telephone"]:-moz-placeholder {
   display: inline-block;
   width: calc( 28% - 2px);
 }
-/* line 164, ../../stylesheets/bipy/_styleguide.scss */
+/* line 166, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper input {
   padding: 0;
 }
-/* line 167, ../../stylesheets/bipy/_styleguide.scss */
+/* line 169, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper:last-of-type {
   width: calc( 44% - 2px);
 }
-/* line 170, ../../stylesheets/bipy/_styleguide.scss */
+/* line 172, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper label {
   text-align: center;
   display: block;
 }
 
-/* line 175, ../../stylesheets/bipy/_styleguide.scss */
+/* line 177, ../../stylesheets/bipy/_styleguide.scss */
 .condition-wrapper {
   margin-bottom: 5.10204082%;
 }
-/* line 177, ../../stylesheets/bipy/_styleguide.scss */
+/* line 179, ../../stylesheets/bipy/_styleguide.scss */
 .condition-wrapper input[type="checkbox"] {
   display: none;
 }
-/* line 179, ../../stylesheets/bipy/_styleguide.scss */
+/* line 181, ../../stylesheets/bipy/_styleguide.scss */
 .condition-wrapper input[type="checkbox"] + label {
   position: relative;
   margin-left: 20px;
 }
-/* line 182, ../../stylesheets/bipy/_styleguide.scss */
+/* line 184, ../../stylesheets/bipy/_styleguide.scss */
 .condition-wrapper input[type="checkbox"] + label:before {
   content: "";
   position: absolute;
@@ -9026,19 +9026,56 @@ input[type="telephone"]:-moz-placeholder {
   background: transparent;
   border: 1px solid #FFF;
 }
-/* line 192, ../../stylesheets/bipy/_styleguide.scss */
-.condition-wrapper input[type="checkbox"] + label a {
+/* line 194, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper input[type="checkbox"] + label .word-btn {
   color: #FFF;
   text-transform: uppercase;
   text-decoration: underline;
   font-size: 12px;
+  background: transparent;
+  border: none;
+  padding: 0;
 }
-/* line 201, ../../stylesheets/bipy/_styleguide.scss */
+/* line 206, ../../stylesheets/bipy/_styleguide.scss */
 .condition-wrapper input[type="checkbox"]:checked + label:before {
   content: "\2713";
   font-size: 12px;
   line-height: 12px;
   text-indent: 2px;
+}
+
+/* line 2, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-header {
+  border-bottom: 0;
+}
+/* line 4, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-header .modal-title {
+  font-weight: 400;
+  font-size: 2em;
+  color: #1abaf1;
+  text-align: center;
+}
+/* line 12, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-body p {
+  color: #343434;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 2em;
+  padding: 0 7%;
+}
+/* line 20, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-footer {
+  padding: 0 5%;
+  text-align: center;
+}
+/* line 23, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-footer .button-container {
+  margin-bottom: 5%;
+}
+/* line 25, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-footer .button-container .submit {
+  width: 95%;
+  margin: 0 auto;
 }
 
 /* line 1, ../../stylesheets/bipy/_login.scss */

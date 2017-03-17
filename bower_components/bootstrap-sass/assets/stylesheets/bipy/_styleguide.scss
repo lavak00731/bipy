@@ -5,6 +5,8 @@ $light-background: #fefdfc;
 $link-color: #036e9d;
 $input-valid-color: #d2f3fd;
 $validation-icons: #23caf4;
+$modal-title: #1abaf1;
+$condition: #343434;
 @font-face {
     font-family: "social";
     src: url("../fonts/social.eot");
@@ -189,11 +191,14 @@ input[type="telephone"] {
                 background: transparent;
                 border: 1px solid $white;
             }
-            a {
+            .word-btn {
                 color: $white;
                 text-transform: uppercase;
                 text-decoration: underline;
                 font-size: 12px;
+                background: transparent;
+                border: none;
+                padding: 0;
             }
         }
         &:checked {

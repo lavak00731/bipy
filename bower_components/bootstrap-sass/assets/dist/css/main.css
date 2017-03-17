@@ -9118,13 +9118,13 @@ input[type="telephone"]:-moz-placeholder {
 }
 /* line 10, ../../stylesheets/bipy/_registro.scss */
 .flag-icon #registro-pais {
-  padding-left: 22px;
+  padding-left: 33%;
 }
 /* line 13, ../../stylesheets/bipy/_registro.scss */
 .flag-icon .flag {
   position: absolute;
   top: 41px;
-  left: 8px;
+  left: 18%;
 }
 
 /* line 1, ../../stylesheets/bipy/_splash.scss */

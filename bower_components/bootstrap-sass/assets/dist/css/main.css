@@ -8986,7 +8986,7 @@ input[type="telephone"]:-moz-placeholder {
   padding-right: 0;
   float: none;
   display: inline-block;
-  width: calc( 25% - 2px);
+  width: calc( 28% - 2px);
 }
 /* line 164, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper input {
@@ -8994,7 +8994,7 @@ input[type="telephone"]:-moz-placeholder {
 }
 /* line 167, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper:last-of-type {
-  width: calc( 50% - 2px);
+  width: calc( 44% - 2px);
 }
 /* line 170, ../../stylesheets/bipy/_styleguide.scss */
 .inline-input-wrapper label {
@@ -9110,6 +9110,21 @@ input[type="telephone"]:-moz-placeholder {
 /* line 4, ../../stylesheets/bipy/_registro.scss */
 .registro-section .button-container {
   margin-bottom: 15%;
+}
+
+/* line 8, ../../stylesheets/bipy/_registro.scss */
+.flag-icon {
+  position: relative;
+}
+/* line 10, ../../stylesheets/bipy/_registro.scss */
+.flag-icon #registro-pais {
+  padding-left: 22px;
+}
+/* line 13, ../../stylesheets/bipy/_registro.scss */
+.flag-icon .flag {
+  position: absolute;
+  top: 41px;
+  left: 8px;
 }
 
 /* line 1, ../../stylesheets/bipy/_splash.scss */

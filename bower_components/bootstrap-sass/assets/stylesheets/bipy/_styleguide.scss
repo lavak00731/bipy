@@ -160,12 +160,12 @@ input[type="telephone"] {
     padding-right: 0;
     float: none;
     display: inline-block;
-    width: calc( 25% - 2px);
+    width: calc( 28% - 2px);
     & input {
         padding: 0;
     }
     &:last-of-type {
-        width: calc( 50% - 2px);
+        width: calc( 44% - 2px);
     }
     & label {
         text-align: center;

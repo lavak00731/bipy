@@ -5,3 +5,14 @@
         margin-bottom: 15%;
     }
 }
+.flag-icon {
+    position: relative;
+    #registro-pais {
+        padding-left: 22px;
+    }
+    .flag {
+        position: absolute;
+        top: 41px;
+        left: 8px;
+    }
+}

@@ -60,27 +60,33 @@
                         <i class="icon-times"></i>
                     </div>
                     <div class="row">
-                        <div class="form-group input-wrapper inline-input-wrapper col-xs-3">
-                            <label for="registro-pais">Pa&iacute;s</label>
-                            <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
-                            <input type="telephone" id="registro-pais" placeholder="+54" class="col-xs-12" maxlength="3">
-                            <i class="icon-checkmark-circled"></i>
-                            <i class="icon-times"></i>
+                        <div class="form-group input-wrapper">
+                            <div class="inline-input-wrapper">
+                                <label for="registro-pais">Pa&iacute;s</label>
+                                <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                                <input type="telephone" id="registro-pais" placeholder="+54" class="col-xs-12" maxlength="3">
+                                <i class="icon-checkmark-circled"></i>
+                                <i class="icon-times"></i>
+                            </div>
+                            <div class="inline-input-wrapper">
+                                <label for="registro-area">&Aacute;rea</label>
+                                <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                                <input type="telephone" id="registro-area" placeholder="11" class="col-xs-12" maxlength="4">
+                                <i class="icon-checkmark-circled"></i>
+                                <i class="icon-times"></i>
+                            </div>
+                            <div class="inline-input-wrapper">
+                                <label for="registro-numero">N&uacute;mero de Tel&eacute;fono</label>
+                                <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                                <input type="telephone" id="registro-numero" placeholder="11" class="col-xs-12" maxlength="12">
+                                <i class="icon-checkmark-circled"></i>
+                                <i class="icon-times"></i>
+                            </div>
                         </div>
-                        <div class="form-group input-wrapper inline-input-wrapper col-xs-3">
-                            <label for="registro-area">&Aacute;rea</label>
-                            <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
-                            <input type="telephone" id="registro-area" placeholder="11" class="col-xs-12" maxlength="4">
-                            <i class="icon-checkmark-circled"></i>
-                            <i class="icon-times"></i>
-                        </div>
-                        <div class="form-group input-wrapper inline-input-wrapper col-xs-6">
-                            <label for="registro-numero">N&uacute;mero de Tel&eacute;fono</label>
-                            <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
-                            <input type="telephone" id="registro-numero" placeholder="11" class="col-xs-12" maxlength="12">
-                            <i class="icon-checkmark-circled"></i>
-                            <i class="icon-times"></i>
-                        </div>
+                    </div>
+                    <div class="row checkbox-wrapper condition-wrapper">
+                        <input type="checkbox" id="conditions">
+                        <label for="conditions"><a href="">Acepto los términos y condiciones</a></label>
                     </div>
                     <div class="button-container row">
                         <button class="submit col-xs-12 col-md-8 col-md-offset-2">Crear Cuenta</button>

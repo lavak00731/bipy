@@ -61,7 +61,7 @@ a {
         text-decoration: underline;
     }
     &:focus {
-        outline: thin dotted;
+        outline: none;
     }
 }
 input[type="text"],
@@ -114,7 +114,7 @@ input[type="telephone"] {
             box-shadow: none;
         }
         &:focus {
-            outline: thin dotted;
+            outline: none;
         }
     }
 }
@@ -151,6 +151,59 @@ input[type="telephone"] {
                 position: absolute;
                 right: 7%;
                 top: 15px;
+            }
+        }
+    }
+}
+.inline-input-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+    display: inline-block;
+    width: calc( 25% - 2px);
+    & input {
+        padding: 0;
+    }
+    &:last-of-type {
+        width: calc( 50% - 2px);
+    }
+    & label {
+        text-align: center;
+        display: block;
+    }
+}
+.condition-wrapper {
+    margin-bottom: 5.10204082%;
+    input[type="checkbox"] {
+        display: none;
+        & + label {
+            position: relative;
+            margin-left: 20px;
+            &:before {
+                content: "";
+                position: absolute;
+                left: -19px;
+                top: 3px;
+                height: 14px;
+                width: 14px;
+                background: transparent;
+                border: 1px solid $white;
+            }
+            a {
+                color: $white;
+                text-transform: uppercase;
+                text-decoration: underline;
+                font-size: 12px;
+            }
+        }
+        &:checked {
+            & + label {
+                &:before {
+                    content: "\2713";
+                    font-size: 12px;
+                    line-height: 12px;
+                    text-indent: 2px;
+                }
             }
         }
     }

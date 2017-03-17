@@ -8861,7 +8861,7 @@ a:hover, a:active {
 }
 /* line 63, ../../stylesheets/bipy/_styleguide.scss */
 a:focus {
-  outline: thin dotted;
+  outline: none;
 }
 
 /* line 67, ../../stylesheets/bipy/_styleguide.scss */
@@ -8936,7 +8936,7 @@ input[type="telephone"]:-moz-placeholder {
 }
 /* line 116, ../../stylesheets/bipy/_styleguide.scss */
 .button-container .submit:focus {
-  outline: thin dotted;
+  outline: none;
 }
 
 /* line 121, ../../stylesheets/bipy/_styleguide.scss */
@@ -8978,6 +8978,67 @@ input[type="telephone"]:-moz-placeholder {
   position: absolute;
   right: 7%;
   top: 15px;
+}
+
+/* line 158, ../../stylesheets/bipy/_styleguide.scss */
+.inline-input-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  float: none;
+  display: inline-block;
+  width: calc( 25% - 2px);
+}
+/* line 164, ../../stylesheets/bipy/_styleguide.scss */
+.inline-input-wrapper input {
+  padding: 0;
+}
+/* line 167, ../../stylesheets/bipy/_styleguide.scss */
+.inline-input-wrapper:last-of-type {
+  width: calc( 50% - 2px);
+}
+/* line 170, ../../stylesheets/bipy/_styleguide.scss */
+.inline-input-wrapper label {
+  text-align: center;
+  display: block;
+}
+
+/* line 175, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper {
+  margin-bottom: 5.10204082%;
+}
+/* line 177, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper input[type="checkbox"] {
+  display: none;
+}
+/* line 179, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper input[type="checkbox"] + label {
+  position: relative;
+  margin-left: 20px;
+}
+/* line 182, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper input[type="checkbox"] + label:before {
+  content: "";
+  position: absolute;
+  left: -19px;
+  top: 3px;
+  height: 14px;
+  width: 14px;
+  background: transparent;
+  border: 1px solid #FFF;
+}
+/* line 192, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper input[type="checkbox"] + label a {
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 12px;
+}
+/* line 201, ../../stylesheets/bipy/_styleguide.scss */
+.condition-wrapper input[type="checkbox"]:checked + label:before {
+  content: "\2713";
+  font-size: 12px;
+  line-height: 12px;
+  text-indent: 2px;
 }
 
 /* line 1, ../../stylesheets/bipy/_login.scss */
@@ -9045,6 +9106,10 @@ input[type="telephone"]:-moz-placeholder {
 .registro-section {
   background: url("../img/registrobackground.jpg") no-repeat 0 0;
   background-size: cover;
+}
+/* line 4, ../../stylesheets/bipy/_registro.scss */
+.registro-section .button-container {
+  margin-bottom: 15%;
 }
 
 /* line 1, ../../stylesheets/bipy/_splash.scss */

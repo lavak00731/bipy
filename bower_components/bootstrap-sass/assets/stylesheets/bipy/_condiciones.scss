@@ -25,6 +25,10 @@
             .submit {
                 width: 95%;
                 margin: 0 auto;
+                &:not([data-dismiss]) {
+                    background-color: $link-color;
+                    color: $white;
+                }
             }
         }
     }

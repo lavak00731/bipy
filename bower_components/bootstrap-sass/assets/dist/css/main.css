@@ -9077,6 +9077,11 @@ input[type="telephone"]:-moz-placeholder {
   width: 95%;
   margin: 0 auto;
 }
+/* line 28, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-footer .button-container .submit:not([data-dismiss]) {
+  background-color: #036e9d;
+  color: #FFF;
+}
 
 /* line 1, ../../stylesheets/bipy/_login.scss */
 .login-section {

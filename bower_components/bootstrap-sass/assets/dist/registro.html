@@ -93,7 +93,9 @@
 
                     </div>
                     <div class="button-container row">
-                        <button class="submit col-xs-12 col-md-8 col-md-offset-2">Crear Cuenta</button>
+                        <!-- La Clase 'modal-opener' sirve para localizar el botón para levantar el pop up y validar que 
+                       existe el modal y el elemento que lo dispara -->
+                        <button class="submit modal-opener col-xs-12 col-md-8 col-md-offset-2">Crear Cuenta</button>
                     </div>
                 </form>
             </div>
@@ -104,7 +106,6 @@
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-
                     <h4 class="modal-title">Modal title</h4>
                 </div>
                 <div class="modal-body">
@@ -117,6 +118,35 @@
                         </div>
                         <div class="col-xs-6 col-md-6">
                             <button type="button" class="submit">Acepto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loading ajax Modal  -->
+    <div class="modal fade ajaxloading" tabindex="-1" role="dialog" aria-labelledby="declaracionCondiciones">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="loading-wrapper">
+                        <img src="img/loading-img.gif" alt="Cargando sus Datos" class="loading-img">
+                        <p class="text-center">Aguarde,
+                            <br/> Estamos Procesando sus Datos.</p>
+                    </div>
+                    <div class="success-msg hidden">
+                        <p class="text-center">Lorem Ipsum</p>
+                    </div>
+                    <div class="error-msg hidden">
+                        <p class="text-center">El usuario que intenta
+                            <br/> registrar ya está registrado</p>
+                    </div>
+                </div>
+                <div class="modal-footer hidden">
+                    <div class="button-container row">
+                        <div class="col-xs-6 col-md-6 col-xs-offset-3 col-md-offset-3">
+                            <button type="button" class="submit" data-dismiss="modal">ok</button>
                         </div>
                     </div>
                 </div>

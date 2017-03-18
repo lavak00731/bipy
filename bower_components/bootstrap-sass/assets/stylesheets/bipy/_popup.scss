@@ -1,0 +1,27 @@
+.ajaxloading {
+    .modal-dialog {
+        width: 80%;
+        margin: 25% auto;
+    }
+    .loading-wrapper {
+        img {
+            display: block;
+            margin: 10% auto;
+        }
+    }
+    .modal-body {
+        p {
+            color: #25cef5;
+        }
+    }
+    .modal-footer {
+        border-top: 0;
+        .submit {
+            &[data-dismiss="modal"] {
+                background-color: $link-color;
+                color: $white;
+                width: 100%;
+            }
+        }
+    }
+}

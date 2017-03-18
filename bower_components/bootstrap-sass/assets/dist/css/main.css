@@ -9083,6 +9083,32 @@ input[type="telephone"]:-moz-placeholder {
   color: #FFF;
 }
 
+/* line 1, ../../stylesheets/bipy/_welcome.scss */
+.welcome-section {
+  background: url("../img/registrobackground.jpg") no-repeat 0 0;
+  background-size: cover;
+}
+/* line 4, ../../stylesheets/bipy/_welcome.scss */
+.welcome-section .button-container {
+  margin-bottom: 15%;
+}
+
+/* line 9, ../../stylesheets/bipy/_welcome.scss */
+.welcome-logo-container h1 {
+  font-size: 1.5em;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+/* line 14, ../../stylesheets/bipy/_welcome.scss */
+.welcome-logo-container .welcome-logo-wrapper {
+  margin-bottom: 5%;
+}
+
+/* line 18, ../../stylesheets/bipy/_welcome.scss */
+.welcome-device {
+  margin-bottom: 10%;
+}
+
 /* line 1, ../../stylesheets/bipy/_login.scss */
 .login-section {
   background: url("../img/loginbackground.jpg") no-repeat 0 0;
@@ -9148,21 +9174,22 @@ input[type="telephone"]:-moz-placeholder {
 .ajaxloading .modal-dialog {
   width: 80%;
   margin: 25% auto;
+  max-width: 500px;
 }
-/* line 7, ../../stylesheets/bipy/_popup.scss */
+/* line 8, ../../stylesheets/bipy/_popup.scss */
 .ajaxloading .loading-wrapper img {
   display: block;
   margin: 10% auto;
 }
-/* line 13, ../../stylesheets/bipy/_popup.scss */
+/* line 14, ../../stylesheets/bipy/_popup.scss */
 .ajaxloading .modal-body p {
   color: #25cef5;
 }
-/* line 17, ../../stylesheets/bipy/_popup.scss */
+/* line 18, ../../stylesheets/bipy/_popup.scss */
 .ajaxloading .modal-footer {
   border-top: 0;
 }
-/* line 20, ../../stylesheets/bipy/_popup.scss */
+/* line 21, ../../stylesheets/bipy/_popup.scss */
 .ajaxloading .modal-footer .submit[data-dismiss="modal"] {
   background-color: #036e9d;
   color: #FFF;

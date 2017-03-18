@@ -1,0 +1,20 @@
+.welcome-section {
+    background: url('../img/registrobackground.jpg') no-repeat 0 0;
+    background-size: cover;
+    .button-container {
+        margin-bottom: 15%;
+    }
+}
+.welcome-logo-container {
+    h1 {
+        font-size: 1.5em;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .welcome-logo-wrapper {
+        margin-bottom: 5%;
+    }
+}
+.welcome-device {
+    margin-bottom: 10%;
+}

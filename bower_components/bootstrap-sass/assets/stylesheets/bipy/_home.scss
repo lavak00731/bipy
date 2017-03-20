@@ -1,1 +1,24 @@
-
+.home-section {
+    header {
+        background-color: $header-bg;
+        .navbar-toggle {
+            position: absolute;
+            top: 3px;
+            right: 9px;
+            float: none;
+            z-index: 1;
+            margin: 0;
+            .icon-bar {
+                background: $white;
+            }
+        }
+        h1 {
+            font-size: 1.5em;
+            line-height: 2em;
+            margin: 0;
+        }
+    }
+    .button-container {
+        bottom: 5%;
+    }
+}

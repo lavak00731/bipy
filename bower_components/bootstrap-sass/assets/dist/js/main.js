@@ -1,3 +1,4 @@
+//Modal Opener
 (function ($) {
     'use strict';
 
@@ -16,4 +17,23 @@
             registerAccount();
         });
     }
+})(jQuery);
+
+//Open and Close Menu
+(function ($) {
+    'use strict';
+    var bodyTag = $('body');
+    var nav = $('.navbar-toggle');
+    var closeMenu = $('.main-menu-outer .close-menu');
+    if (nav.length > 0 && closeMenu.length > 0) {
+        bodyTag.on('click', nav, function (e) {
+            e.stopPropagation();
+            $(this).addClass('menu-open');
+        });
+        bodyTag.on('click', closeMenu, function (e) {
+            e.stopPropagation();
+            $(this).removeClass('menu-open');
+        });
+    }
+
 })(jQuery);

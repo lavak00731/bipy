@@ -8,6 +8,7 @@ $validation-icons: #23caf4;
 $modal-title: #1abaf1;
 $condition: #343434;
 $modal-text: #25cef5;
+$header-bg: #7dc6f0;
 @font-face {
     font-family: "social";
     src: url("../fonts/social.eot");
@@ -51,10 +52,32 @@ $modal-text: #25cef5;
 .icon-times:before {
     content: "\64";
 }
+.icon-ios-locked-outline:before {
+    content: "\65";
+}
+.icon-pin:before {
+    content: "\66";
+}
+.icon-commenting-o:before {
+    content: "\67";
+}
+.icon-gear-a:before {
+    content: "\68";
+}
+.icon-call-phone:before {
+    content: "\69";
+}
+.icon-bluetooth:before {
+    content: "\6a";
+}
+.icon-shield:before {
+    content: "\6b";
+}
 body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: $white;
+    padding-top: 42px;
 }
 a {
     color: $link-color;

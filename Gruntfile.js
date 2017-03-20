@@ -52,7 +52,7 @@ module.exports = function (grunt) {
                     hostname: 'localhost',
                     port: 8080,
                     base: 'bower_components/bootstrap-sass/assets/dist',
-                    livereload: true
+                    livereload: false
                 }
             }
         },

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bipy - Home</title>
+
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+<!-- la clase menu-open es la que se agregará a la etiqueta body y muestra menu principal -->
+
+<body class="home-section">
+    <header class="container navbar-fixed-top text-center">
+        <h1>Ubicaci&oacute;n</h1>
+        <button aria-controls="bs-navbar" aria-expanded="false" class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </header>
+    <div class="main-menu-overlay">
+        <button type="button" class="close-menu">&times;</button>
+    </div>
+    <nav class="main-menu">
+        <div class="main-menu-inner">
+            <div class="main-menu-device-logo">
+                <figure><img src="img/welcomedevice.svg" class="img-responsive" alt="Logo Bipy en el dispositivo"></figure>
+            </div>
+            <div class="nav-items">
+                <div class="nav-item"><a href="#" title="">Inicio</a></div>
+                <div class="nav-item"><a href="#" title="">Miembros</a></div>
+                <div class="nav-item"><a href="#" title="">Autorizaciones</a></div>
+                <div class="nav-item"><a href="#" title="">Mi cuenta</a></div>
+                <div class="nav-item"><a href="#" title="">Manual</a></div>
+                <div class="nav-item"><a href="#" title="">Video Instructivo</a></div>
+                <div class="nav-item"><a href="#" title="">Ayuda</a></div>
+                <div class="nav-item"><a href="#" title="">Bipy</a></div>
+            </div>
+        </div>
+    </nav>
+    <div class="map-container">
+        <!-- aca iría el mapa -->
+        <img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/originals/ef/bf/43/efbf43dcd58a844db9563f3323bc492c.jpg" alt="">
+    </div>
+    <div class="button-container row navbar-fixed-bottom">
+        <!-- La Clase 'modal-opener' sirve para localizar el botón para levantar el pop up y validar que 
+                       existe el modal y el elemento que lo dispara -->
+        <button class="submit modal-opener col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">Agregar Nuevo Miembro</button>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/vendor/jquery.slim.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

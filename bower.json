@@ -17,5 +17,8 @@
   ],
   "dependencies": {
     "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "livereload-js": "^2.2.1"
   }
 }

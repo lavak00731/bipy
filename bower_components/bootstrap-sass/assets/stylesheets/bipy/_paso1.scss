@@ -1,0 +1,36 @@
+.configuracion {
+    background-color: $white;
+    color: $primary;
+    .membername {
+        i {
+            &.icon-user-outline {
+                display: block;
+                color: $inverted-form-color;
+                position: absolute;
+                left: 7%;
+                top: 15px;
+            }
+        }
+    }
+    .member-number {
+        padding-right: 0;
+    }
+    .load-member-img {
+        position: absolute;
+        top: -50%;
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        left: 0;
+    }
+    .codescanner {
+        i {
+            display: inline-block;
+            position: relative;
+            bottom: -3px;
+            color: $white;
+        }
+    }
+    .button-container {
+        margin-bottom: 5%;
+    }
+}

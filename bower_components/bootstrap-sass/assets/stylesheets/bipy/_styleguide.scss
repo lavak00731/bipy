@@ -73,11 +73,30 @@ $header-bg: #7dc6f0;
 .icon-shield:before {
     content: "\6b";
 }
+.icon-volume-strike:before {
+    content: "\6c";
+}
+.icon-address:before {
+    content: "\6d";
+}
+.icon-barcode:before {
+    content: "\6e";
+}
+.icon-home:before {
+    content: "\6f";
+}
+.icon-volume-up:before {
+    content: "\70";
+}
+.icon-user-outline:before {
+    content: "\71";
+}
 body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: $white;
     padding-top: 42px;
+    background: $primary;
 }
 a {
     color: $link-color;

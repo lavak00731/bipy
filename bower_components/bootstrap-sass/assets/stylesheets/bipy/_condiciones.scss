@@ -9,6 +9,8 @@
         }
     }
     .modal-body {
+        max-height: 300px;
+        overflow-y: scroll;
         p {
             color: #343434;
             font-weight: 400;
@@ -18,8 +20,9 @@
         }
     }
     .modal-footer {
-        padding: 0 5%;
+        padding: 10px 5% 0;
         text-align: center;
+        border: none;
         .button-container {
             margin-bottom: 5%;
             .submit {

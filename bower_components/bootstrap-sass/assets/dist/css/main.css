@@ -8978,7 +8978,7 @@ input[type="telephone"]:-moz-placeholder {
 /* line 147, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper {
   position: relative;
-  margin-bottom: 5.10204082%;
+  margin-bottom: 3.10204082%;
 }
 /* line 150, ../../stylesheets/bipy/_styleguide.scss */
 .input-wrapper:before {
@@ -9091,7 +9091,12 @@ input[type="telephone"]:-moz-placeholder {
   color: #1abaf1;
   text-align: center;
 }
-/* line 12, ../../stylesheets/bipy/_condiciones.scss */
+/* line 11, ../../stylesheets/bipy/_condiciones.scss */
+.conditions-declaration .modal-body {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+/* line 14, ../../stylesheets/bipy/_condiciones.scss */
 .conditions-declaration .modal-body p {
   color: #343434;
   font-weight: 400;
@@ -9099,21 +9104,22 @@ input[type="telephone"]:-moz-placeholder {
   line-height: 2em;
   padding: 0 7%;
 }
-/* line 20, ../../stylesheets/bipy/_condiciones.scss */
+/* line 22, ../../stylesheets/bipy/_condiciones.scss */
 .conditions-declaration .modal-footer {
-  padding: 0 5%;
+  padding: 10px 5% 0;
   text-align: center;
+  border: none;
 }
-/* line 23, ../../stylesheets/bipy/_condiciones.scss */
+/* line 26, ../../stylesheets/bipy/_condiciones.scss */
 .conditions-declaration .modal-footer .button-container {
   margin-bottom: 5%;
 }
-/* line 25, ../../stylesheets/bipy/_condiciones.scss */
+/* line 28, ../../stylesheets/bipy/_condiciones.scss */
 .conditions-declaration .modal-footer .button-container .submit {
   width: 95%;
   margin: 0 auto;
 }
-/* line 28, ../../stylesheets/bipy/_condiciones.scss */
+/* line 31, ../../stylesheets/bipy/_condiciones.scss */
 .conditions-declaration .modal-footer .button-container .submit:not([data-dismiss]) {
   background-color: #036e9d;
   color: #FFF;
@@ -9188,22 +9194,22 @@ input[type="telephone"]:-moz-placeholder {
 /* line 9, ../../stylesheets/bipy/_login.scss */
 .login-logo-wrapper {
   width: 27.272727272%;
-  margin: 25.78849722% auto 12.33766234%;
+  margin: 0 auto 5%;
 }
 
-/* line 14, ../../stylesheets/bipy/_login.scss */
+/* line 13, ../../stylesheets/bipy/_login.scss */
 .reset-pass {
   margin-top: -1%;
   text-align: center;
   margin-bottom: 9.4619666%;
 }
 
-/* line 19, ../../stylesheets/bipy/_login.scss */
+/* line 18, ../../stylesheets/bipy/_login.scss */
 .create-account {
   padding: 8.71985158% 0;
 }
 
-/* line 22, ../../stylesheets/bipy/_login.scss */
+/* line 21, ../../stylesheets/bipy/_login.scss */
 .create-account-question {
   text-align: center;
   position: relative;
@@ -9211,7 +9217,7 @@ input[type="telephone"]:-moz-placeholder {
   line-height: 1.2em;
   margin: 0 auto 9.4619666%;
 }
-/* line 28, ../../stylesheets/bipy/_login.scss */
+/* line 27, ../../stylesheets/bipy/_login.scss */
 .create-account-question:before {
   content: "";
   width: 15%;
@@ -9222,7 +9228,7 @@ input[type="telephone"]:-moz-placeholder {
   border-bottom: 1px solid #FFF;
   left: -15px;
 }
-/* line 38, ../../stylesheets/bipy/_login.scss */
+/* line 37, ../../stylesheets/bipy/_login.scss */
 .create-account-question:after {
   content: "";
   width: 15%;
@@ -9304,8 +9310,12 @@ body.menu-open .main-menu-overlay {
 body.menu-open .main-menu {
   display: block;
 }
+/* line 58, ../../stylesheets/bipy/_menu.scss */
+body.menu-open .navbar-toggle {
+  display: none;
+}
 
-/* line 60, ../../stylesheets/bipy/_menu.scss */
+/* line 63, ../../stylesheets/bipy/_menu.scss */
 .main-menu-overlay {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -9317,7 +9327,7 @@ body.menu-open .main-menu {
   top: 0;
   left: 0;
 }
-/* line 70, ../../stylesheets/bipy/_menu.scss */
+/* line 73, ../../stylesheets/bipy/_menu.scss */
 .main-menu-overlay .close-menu {
   font-size: 2em;
   top: -1px;
@@ -9331,7 +9341,7 @@ body.menu-open .main-menu {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 83, ../../stylesheets/bipy/_menu.scss */
+  /* line 86, ../../stylesheets/bipy/_menu.scss */
   .navbar-toggle {
     display: block;
   }
@@ -9368,19 +9378,36 @@ body.menu-open .main-menu {
   background-size: cover;
 }
 /* line 4, ../../stylesheets/bipy/_registro.scss */
+.registro-section .container {
+  position: relative;
+}
+/* line 6, ../../stylesheets/bipy/_registro.scss */
+.registro-section .container .backbtn {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  background: transparent;
+  border: 0;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 30px;
+  padding: 14px;
+  line-height: 22px;
+}
+/* line 19, ../../stylesheets/bipy/_registro.scss */
 .registro-section .button-container {
   margin-bottom: 15%;
 }
 
-/* line 8, ../../stylesheets/bipy/_registro.scss */
+/* line 23, ../../stylesheets/bipy/_registro.scss */
 .flag-icon {
   position: relative;
 }
-/* line 10, ../../stylesheets/bipy/_registro.scss */
+/* line 25, ../../stylesheets/bipy/_registro.scss */
 .flag-icon #registro-pais {
   padding-left: 33%;
 }
-/* line 13, ../../stylesheets/bipy/_registro.scss */
+/* line 28, ../../stylesheets/bipy/_registro.scss */
 .flag-icon .flag {
   position: absolute;
   top: 41px;

@@ -9150,87 +9150,87 @@ input[type="telephone"]:-moz-placeholder {
   text-indent: 2px;
 }
 
-/* line 292, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn {
+/* line 291, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn {
   color: #5b5b5b;
 }
-/* line 294, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn .submit {
+/* line 293, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn .submit {
   color: #FFF;
   background-color: #036e9d;
   -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
   transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
   box-shadow: 0px 4px 1px #d4d4d4;
 }
-/* line 300, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn .submit:hover {
+/* line 299, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn .submit:hover {
   background-color: rgba(3, 110, 157, 0.7);
   text-decoration: underline;
 }
-/* line 304, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn .submit:active {
+/* line 303, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn .submit:active {
   background-color: rgba(3, 110, 157, 0.7);
   text-decoration: underline;
   box-shadow: none;
 }
-/* line 309, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn .submit:focus {
+/* line 308, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn .submit:focus {
   outline: none;
 }
-/* line 313, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn legend {
+/* line 312, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn legend {
   color: #70c2f1;
   font-size: 1.5em;
   border: none;
   margin: 3% 0;
 }
-/* line 319, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn input[type="text"],
-form.inverted-btn input[type="password"],
-form.inverted-btn input[type="email"],
-form.inverted-btn input[type="telephone"] {
+/* line 318, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn input[type="text"],
+.inverted-btn input[type="password"],
+.inverted-btn input[type="email"],
+.inverted-btn input[type="telephone"] {
   color: #5b5b5b;
   background: transparent;
   border: 1px solid #5b5b5b;
 }
-/* line 326, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn input[type="text"]::-webkit-input-placeholder,
-form.inverted-btn input[type="password"]::-webkit-input-placeholder,
-form.inverted-btn input[type="email"]::-webkit-input-placeholder,
-form.inverted-btn input[type="telephone"]::-webkit-input-placeholder {
+/* line 325, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn input[type="text"]::-webkit-input-placeholder,
+.inverted-btn input[type="password"]::-webkit-input-placeholder,
+.inverted-btn input[type="email"]::-webkit-input-placeholder,
+.inverted-btn input[type="telephone"]::-webkit-input-placeholder {
   color: #5b5b5b;
   opacity: 0.8;
 }
-/* line 330, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn input[type="text"]::-moz-placeholder,
-form.inverted-btn input[type="password"]::-moz-placeholder,
-form.inverted-btn input[type="email"]::-moz-placeholder,
-form.inverted-btn input[type="telephone"]::-moz-placeholder {
+/* line 329, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn input[type="text"]::-moz-placeholder,
+.inverted-btn input[type="password"]::-moz-placeholder,
+.inverted-btn input[type="email"]::-moz-placeholder,
+.inverted-btn input[type="telephone"]::-moz-placeholder {
   color: #5b5b5b;
   opacity: 0.8;
 }
-/* line 334, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn input[type="text"]:-ms-input-placeholder,
-form.inverted-btn input[type="password"]:-ms-input-placeholder,
-form.inverted-btn input[type="email"]:-ms-input-placeholder,
-form.inverted-btn input[type="telephone"]:-ms-input-placeholder {
+/* line 333, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn input[type="text"]:-ms-input-placeholder,
+.inverted-btn input[type="password"]:-ms-input-placeholder,
+.inverted-btn input[type="email"]:-ms-input-placeholder,
+.inverted-btn input[type="telephone"]:-ms-input-placeholder {
   color: #5b5b5b;
   opacity: 0.8;
 }
-/* line 338, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn input[type="text"]:-moz-placeholder,
-form.inverted-btn input[type="password"]:-moz-placeholder,
-form.inverted-btn input[type="email"]:-moz-placeholder,
-form.inverted-btn input[type="telephone"]:-moz-placeholder {
+/* line 337, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn input[type="text"]:-moz-placeholder,
+.inverted-btn input[type="password"]:-moz-placeholder,
+.inverted-btn input[type="email"]:-moz-placeholder,
+.inverted-btn input[type="telephone"]:-moz-placeholder {
   color: #5b5b5b;
   opacity: 0.8;
 }
-/* line 343, ../../stylesheets/bipy/_styleguide.scss */
-form.inverted-btn .input-wrapper {
+/* line 342, ../../stylesheets/bipy/_styleguide.scss */
+.inverted-btn .input-wrapper {
   margin-bottom: 5%;
 }
 
-/* line 348, ../../stylesheets/bipy/_styleguide.scss */
+/* line 346, ../../stylesheets/bipy/_styleguide.scss */
 .positioner {
   position: relative;
 }

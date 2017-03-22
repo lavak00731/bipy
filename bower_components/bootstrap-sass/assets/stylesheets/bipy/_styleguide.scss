@@ -288,61 +288,59 @@ input[type="telephone"] {
         }
     }
 }
-form {
-    &.inverted-btn {
+.inverted-btn {
+    color: $inverted-form-color;
+    .submit {
+        color: $white;
+        background-color: $link-color;
+        -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+        transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 0px 4px 1px $inverted-btn-shadow;
+        &:hover {
+            background-color: rgba(3, 110, 157, 0.7);
+            text-decoration: underline;
+        }
+        &:active {
+            background-color: rgba(3, 110, 157, 0.7);
+            text-decoration: underline;
+            box-shadow: none;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    legend {
+        color: $primary;
+        font-size: 1.5em;
+        border: none;
+        margin: 3% 0;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="telephone"] {
         color: $inverted-form-color;
-        .submit {
-            color: $white;
-            background-color: $link-color;
-            -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-            transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-            box-shadow: 0px 4px 1px $inverted-btn-shadow;
-            &:hover {
-                background-color: rgba(3, 110, 157, 0.7);
-                text-decoration: underline;
-            }
-            &:active {
-                background-color: rgba(3, 110, 157, 0.7);
-                text-decoration: underline;
-                box-shadow: none;
-            }
-            &:focus {
-                outline: none;
-            }
-        }
-        legend {
-            color: $primary;
-            font-size: 1.5em;
-            border: none;
-            margin: 3% 0;
-        }
-        input[type="text"],
-        input[type="password"],
-        input[type="email"],
-        input[type="telephone"] {
+        background: transparent;
+        border: 1px solid $inverted-form-color;
+        &::-webkit-input-placeholder {
             color: $inverted-form-color;
-            background: transparent;
-            border: 1px solid $inverted-form-color;
-            &::-webkit-input-placeholder {
-                color: $inverted-form-color;
-                opacity: 0.8;
-            }
-            &::-moz-placeholder {
-                color: $inverted-form-color;
-                opacity: 0.8;
-            }
-            &:-ms-input-placeholder {
-                color: $inverted-form-color;
-                opacity: 0.8;
-            }
-            &:-moz-placeholder {
-                color: $inverted-form-color;
-                opacity: 0.8;
-            }
+            opacity: 0.8;
         }
-        .input-wrapper {
-            margin-bottom: 5%;
+        &::-moz-placeholder {
+            color: $inverted-form-color;
+            opacity: 0.8;
         }
+        &:-ms-input-placeholder {
+            color: $inverted-form-color;
+            opacity: 0.8;
+        }
+        &:-moz-placeholder {
+            color: $inverted-form-color;
+            opacity: 0.8;
+        }
+    }
+    .input-wrapper {
+        margin-bottom: 5%;
     }
 }
 .positioner {

@@ -9569,6 +9569,12 @@ body.menu-open .navbar-toggle {
   font-size: 18px;
 }
 
+/* line 2, ../../stylesheets/bipy/_paso3.scss */
+.secure-zone form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 /* line 2, ../../stylesheets/bipy/_popup.scss */
 .ajaxloading .modal-dialog {
   width: 80%;

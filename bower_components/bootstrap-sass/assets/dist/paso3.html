@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bipy - Paso 3 - Zona Segura</title>
+
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+<!-- la clase menu-open es la que se agregará a la etiqueta body y muestra menu principal -->
+
+<body class="configuracion">
+    <header class="container navbar-fixed-top text-center">
+        <button type="button" class="backbtn">&lt;</button>
+        <h1>Perfil Mat&iacute;as</h1>
+        <button class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </header>
+    <div class="main-menu-overlay">
+        <button type="button" class="close-menu">&times;</button>
+    </div>
+    <nav class="main-menu">
+        <div class="main-menu-inner">
+            <div class="main-menu-device-logo">
+                <figure><img src="img/welcomedevice.svg" class="img-responsive" alt="Logo Bipy en el dispositivo"></figure>
+            </div>
+            <div class="nav-items">
+                <div class="nav-item"><a href="#" title="">Inicio</a></div>
+                <div class="nav-item"><a href="#" title="">Miembros</a></div>
+                <div class="nav-item"><a href="#" title="">Autorizaciones</a></div>
+                <div class="nav-item"><a href="#" title="">Mi cuenta</a></div>
+                <div class="nav-item"><a href="#" title="">Manual</a></div>
+                <div class="nav-item"><a href="#" title="">Video Instructivo</a></div>
+                <div class="nav-item"><a href="#" title="">Ayuda</a></div>
+                <div class="nav-item"><a href="#" title="">Bipy</a></div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="secure-zone">
+                <img class="img-responsive" src="http://www.opcionbuenosaires.com.ar/imagenes/mapa_buenos_aires.jpg" alt="">
+                <form action="" class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 inverted-btn">
+                    <div class="form-group input-wrapper secure-zone-form  row">
+                        <label class="sr-only" for="secure-zone-spot">Zona Segura</label>
+                        <!--Incluyendo la clases valid o invalid en el input a validar aparace el tilde o la cruz-->
+                        <input type="text" id="secure-zone-spot" placeholder="Nombre de Zona Segura (ej: Casa)" class="col-xs-12">
+                        <i class="icon-checkmark-circled"></i>
+                        <i class="icon-times"></i>
+                    </div>
+                    <!-- aca iria el slider -->
+                    <div class="form-group input-wrapper secure-zone-slider row">
+
+                    </div>
+                    <div class="button-container row">
+                        <button class="submit col-xs-12 col-md-8 col-md-offset-2">Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/vendor/jquery.slim.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

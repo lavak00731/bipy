@@ -1,0 +1,43 @@
+.member-list {
+    padding: 0;
+    .member-data {
+        padding: 20px 0;
+        border-bottom: 1px solid #bfbfbf;
+        overflow: hidden;
+        &:last-of-type {
+            border: 0;
+        }
+    }
+    a {
+        color: $primary;
+        position: relative;
+        display: block;
+        &:after {
+            content: ">";
+            font-size: 1.5em;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            margin-top: -3px;
+        }
+    }
+}
+.is-table-row {
+    display: table;
+    width: 100%;
+    .member-face,
+    .member-id,
+    .msg,
+    .call {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 18px;
+    }
+}
+.msg,
+.call {
+    font-size: 18px;
+}

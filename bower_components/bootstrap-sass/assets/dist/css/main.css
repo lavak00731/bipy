@@ -9515,6 +9515,60 @@ body.menu-open .navbar-toggle {
   margin-bottom: 5%;
 }
 
+/* line 1, ../../stylesheets/bipy/_paso2.scss */
+.member-list {
+  padding: 0;
+}
+/* line 3, ../../stylesheets/bipy/_paso2.scss */
+.member-list .member-data {
+  padding: 20px 0;
+  border-bottom: 1px solid #bfbfbf;
+  overflow: hidden;
+}
+/* line 7, ../../stylesheets/bipy/_paso2.scss */
+.member-list .member-data:last-of-type {
+  border: 0;
+}
+/* line 11, ../../stylesheets/bipy/_paso2.scss */
+.member-list a {
+  color: #70c2f1;
+  position: relative;
+  display: block;
+}
+/* line 15, ../../stylesheets/bipy/_paso2.scss */
+.member-list a:after {
+  content: ">";
+  font-size: 1.5em;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-top: -3px;
+}
+
+/* line 27, ../../stylesheets/bipy/_paso2.scss */
+.is-table-row {
+  display: table;
+  width: 100%;
+}
+/* line 30, ../../stylesheets/bipy/_paso2.scss */
+.is-table-row .member-face,
+.is-table-row .member-id,
+.is-table-row .msg,
+.is-table-row .call {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+/* line 40, ../../stylesheets/bipy/_paso2.scss */
+.msg,
+.call {
+  font-size: 18px;
+}
+
 /* line 2, ../../stylesheets/bipy/_popup.scss */
 .ajaxloading .modal-dialog {
   width: 80%;

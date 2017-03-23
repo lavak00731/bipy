@@ -40,3 +40,18 @@
     }
 
 })(jQuery);
+
+//Secondary menu 
+(function ($) {
+    'use strict';
+    var sdMenu = $('.secondary-menu');
+    var sdItem = $('.secondary-menu .sd-menu-item');
+    if (sdMenu.length > 0) {
+        sdItem.on('click', function (e) {
+            e.preventDefault();
+            sdItem.removeClass('selected');
+            $(this).addClass('selected');
+        });
+    }
+
+})(jQuery);

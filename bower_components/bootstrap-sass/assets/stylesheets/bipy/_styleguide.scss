@@ -11,6 +11,7 @@ $modal-text: #25cef5;
 $header-bg: #7dc6f0;
 $inverted-btn-shadow: #d4d4d4;
 $inverted-form-color: #5b5b5b;
+$selected-bg-sd: #f2f2f2;
 @font-face {
     font-family: "social";
     src: url("../fonts/social.eot");
@@ -345,4 +346,44 @@ input[type="telephone"] {
 }
 .positioner {
     position: relative;
+}
+.secondary-menu {
+    ul {
+        padding: 0;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        li {
+            list-style: none;
+            padding: 0;
+        }
+    }
+    .sd-menu-item {
+        padding: 5px 0;
+        width: 100%;
+        border: 0;
+        box-shadow: none;
+        min-height: 84px;
+        display: inline-block;
+        padding: 15px 0 0;
+        background-color: $primary;
+        color: $white;
+        -webkit-transition: color background-color 0.5s ease-out;
+        transition: color background-color 0.3s ease-out;
+        &.selected {
+            color: $secondary;
+            background-color: $selected-bg-sd;
+        }
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+    i {
+        font-size: 1.5em;
+        display: block;
+    }
+    span {
+        font-size: 0.9em;
+    }
 }

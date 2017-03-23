@@ -12,6 +12,7 @@ $header-bg: #7dc6f0;
 $inverted-btn-shadow: #d4d4d4;
 $inverted-form-color: #5b5b5b;
 $selected-bg-sd: #f2f2f2;
+$status-bg: rgba(253, 253, 253, 0.9);
 @font-face {
     font-family: "social";
     src: url("../fonts/social.eot");
@@ -93,6 +94,12 @@ $selected-bg-sd: #f2f2f2;
 }
 .icon-user-outline:before {
     content: "\71";
+}
+.icon-battery-3:before {
+    content: "\72";
+}
+.icon-refresh:before {
+    content: "\73";
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -385,5 +392,14 @@ input[type="telephone"] {
     }
     span {
         font-size: 0.9em;
+    }
+}
+.is-table {
+    display: table;
+    widows: 100%;
+    & > div {
+        float: none;
+        display: table-cell;
+        vertical-align: middle;
     }
 }

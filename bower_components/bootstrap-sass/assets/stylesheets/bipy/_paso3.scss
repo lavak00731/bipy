@@ -4,3 +4,63 @@
         margin-bottom: 5%;
     }
 }
+.status-wrapper {
+    background-color: $status-bg;
+    top: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-height: 75px;
+    z-index: 1030;
+    .address-status {
+        position: relative;
+        padding-left: 40px;
+        width: 100%;
+        &:before {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            left: 0;
+            font-size: 2.572em;
+        }
+        .text {
+            h2 {
+                color: $primary;
+                font-size: 1em;
+                line-height: 1em;
+                margin: 0 0 5px;
+            }
+            h3 {
+                color: $condition;
+                font-size: 0.9em;
+                line-height: auto;
+                margin: 0;
+            }
+        }
+    }
+    .battery {
+        i {
+            font-size: 1em;
+        }
+        span {
+            font-size: 1em;
+        }
+    }
+    .action {
+        a {
+            color: $primary;
+            &:hover,
+            &:focus {
+                text-decoration: none;
+            }
+            i {
+                &.icon-gear-a {
+                    font-size: 3em;
+                }
+                &.icon-refresh {
+                    font-size: 3em;
+                }
+            }
+        }
+    }
+}

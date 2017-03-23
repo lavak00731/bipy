@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bipy - Paso 3 - Ubicaci&oacute;n</title>
+
+    <!-- Bootstrap -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+
+</head>
+<!-- la clase menu-open es la que se agregará a la etiqueta body y muestra menu principal -->
+
+<body class="configuracion">
+    <header class="container navbar-fixed-top text-center">
+        <button type="button" class="backbtn">&lt;</button>
+        <h1>Perfil Mat&iacute;as</h1>
+        <button class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </header>
+    <div class="main-menu-overlay">
+        <button type="button" class="close-menu">&times;</button>
+    </div>
+    <nav class="main-menu">
+        <div class="main-menu-inner">
+            <div class="main-menu-device-logo">
+                <figure><img src="img/welcomedevice.svg" class="img-responsive" alt="Logo Bipy en el dispositivo"></figure>
+            </div>
+            <div class="nav-items">
+                <div class="nav-item"><a href="#" title="">Inicio</a></div>
+                <div class="nav-item"><a href="#" title="">Miembros</a></div>
+                <div class="nav-item"><a href="#" title="">Autorizaciones</a></div>
+                <div class="nav-item"><a href="#" title="">Mi cuenta</a></div>
+                <div class="nav-item"><a href="#" title="">Manual</a></div>
+                <div class="nav-item"><a href="#" title="">Video Instructivo</a></div>
+                <div class="nav-item"><a href="#" title="">Ayuda</a></div>
+                <div class="nav-item"><a href="#" title="">Bipy</a></div>
+            </div>
+        </div>
+    </nav>
+    <div class="container status-wrapper navbar-fixed-top">
+        <div class="status row is-table">
+            <div class="col-xs-8 address-status icon-pin">
+                <div class="text">
+                    <h2>Rivera Sur 4560 Bis</h2>
+                    <h3>Ultima actualizaci&oacute;n 15/03/2017 - 20:15hs</h3>
+                </div>
+            </div>
+            <div class="col-xs-2 battery separator">
+                <div class="battery-data text-center">
+                    <i class="icon-battery-3"></i>
+                    <span>78%</span>
+                </div>
+            </div>
+            <div class="col-xs-2 action  separator text-center">
+                <a title="Configuraci&oacute;n" href="#">
+                    <i class="icon-gear-a"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <!--Acá va el mapa-->
+            <img src="http://www.rosario.com.ar/mapas/mapa6.jpg" alt="" class="img-responsive">
+        </div>
+    </div>
+    <nav class="secondary-menu navbar-fixed-bottom text-center">
+        <ul>
+            <li class="col-xs-3 text-center">
+                <a href="#" class="sd-menu-item selected">
+                    <i class="icon-pin"></i>
+                    <span>Ubicaci&oacute;n</span>
+                </a>
+            </li>
+            <li class="col-xs-3 text-center">
+                <a href="#" class="sd-menu-item">
+                    <i class="icon-address"></i>
+                    <span>Historial</span>
+                </a>
+            </li>
+            <li class="col-xs-3 text-center">
+                <a href="#" class="sd-menu-item">
+                    <i class="icon-bluetooth"></i>
+                    <span>Proximidad</span>
+                </a>
+            </li>
+            <li class="col-xs-3 text-center">
+                <a href="#" class="sd-menu-item">
+                    <i class="icon-shield"></i>
+                    <span>Zona Segura</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/vendor/jquery.slim.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

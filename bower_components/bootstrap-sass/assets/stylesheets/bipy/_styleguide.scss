@@ -245,12 +245,14 @@ input[type="telephone"] {
     padding-right: 0;
     float: none;
     display: inline-block;
-    width: calc( 28% - 2px);
+    width: 27%;
+    margin-right: 0.5%;
     & input {
         padding: 0;
     }
     &:last-of-type {
-        width: calc( 44% - 2px);
+        width: 44%;
+        margin-right: 0;
     }
     & label {
         text-align: center;
@@ -366,13 +368,12 @@ input[type="telephone"] {
         }
     }
     .sd-menu-item {
-        padding: 5px 0;
         width: 100%;
         border: 0;
         box-shadow: none;
-        min-height: 84px;
+        min-height: 60px;
         display: inline-block;
-        padding: 15px 0 0;
+        padding: 5px 0 0;
         background-color: $primary;
         color: $white;
         -webkit-transition: color background-color 0.5s ease-out;
@@ -402,4 +403,8 @@ input[type="telephone"] {
         display: table-cell;
         vertical-align: middle;
     }
+}
+.main-content {
+    height: calc( 100vh - 100px);
+    overflow-y: auto;
 }

@@ -58,6 +58,9 @@ body {
         .navbar-toggle {
             display: none;
         }
+        .navbar-fixed-bottom {
+            bottom: -60px;
+        }
     }
 }
 .main-menu-overlay {
@@ -65,10 +68,9 @@ body {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    top: -42px;
+    top: 0;
     z-index: 2000;
     display: none;
-    top: 0;
     left: 0;
     .close-menu {
         font-size: 2em;
@@ -85,5 +87,8 @@ body {
 @media screen and (min-width: 768px) {
     .navbar-toggle {
         display: block;
+    }
+    .main-menu-overlay {
+        left: -18px;
     }
 }

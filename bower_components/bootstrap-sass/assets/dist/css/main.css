@@ -9309,6 +9309,12 @@ input[type="telephone"]:-moz-placeholder {
   overflow-y: auto;
 }
 
+/* line 411, ../../stylesheets/bipy/_styleguide.scss */
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* line 2, ../../stylesheets/bipy/_condiciones.scss */
 .conditions-declaration .modal-header {
   border-bottom: 0;
@@ -9520,20 +9526,23 @@ body.menu-open .main-menu {
 body.menu-open .navbar-toggle {
   display: none;
 }
+/* line 61, ../../stylesheets/bipy/_menu.scss */
+body.menu-open .navbar-fixed-bottom {
+  bottom: -60px;
+}
 
-/* line 63, ../../stylesheets/bipy/_menu.scss */
+/* line 66, ../../stylesheets/bipy/_menu.scss */
 .main-menu-overlay {
   background: rgba(0, 0, 0, 0.5);
   position: fixed;
   height: 100vh;
   width: 100vw;
-  top: -42px;
+  top: 0;
   z-index: 2000;
   display: none;
-  top: 0;
   left: 0;
 }
-/* line 73, ../../stylesheets/bipy/_menu.scss */
+/* line 75, ../../stylesheets/bipy/_menu.scss */
 .main-menu-overlay .close-menu {
   font-size: 2em;
   top: -1px;
@@ -9547,9 +9556,14 @@ body.menu-open .navbar-toggle {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 86, ../../stylesheets/bipy/_menu.scss */
+  /* line 88, ../../stylesheets/bipy/_menu.scss */
   .navbar-toggle {
     display: block;
+  }
+
+  /* line 91, ../../stylesheets/bipy/_menu.scss */
+  .main-menu-overlay {
+    left: -18px;
   }
 }
 /* line 1, ../../stylesheets/bipy/_paso1.scss */

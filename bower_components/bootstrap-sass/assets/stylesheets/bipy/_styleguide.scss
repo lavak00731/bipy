@@ -246,12 +246,12 @@ input[type="telephone"] {
     float: none;
     display: inline-block;
     width: 27%;
-    margin-right: 0.5%;
+    margin-right: 0.4%;
     & input {
         padding: 0;
     }
     &:last-of-type {
-        width: 44%;
+        width: 43%;
         margin-right: 0;
     }
     & label {
